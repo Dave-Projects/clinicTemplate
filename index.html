@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Patient Register</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="bg-gray-100">
+    <div class="flex">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="logo">
+                <img src="https://storage.googleapis.com/a1aa/image/U77AZQfBFs21hlkmdINlqzp-bnPbgb1TSuDL0G8dckc.jpg" alt="HCDC Clinic Logo">
+                <h1>HCDC CLINIC</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Patient Register</a></li>
+                    <li><a href="#">Appointment</a></li>
+                    <li><a href="#">Doctors</a></li>
+                    <li><a href="#">Records</a></li>
+                </ul>
+            </nav>
+            <div class="info">
+                <h2>Other Information</h2>
+            </div>
+            <div class="logout">
+                <a href="#"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                <p>HCDC Clinic 2024</p>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <h1>Student Patient Register</h1>
+            <form>
+                <div class="grid grid-cols-2 gap-4 mb-4">
+                    <div>
+                        <label>Name</label>
+                        <p class="font-bold">JOEL DAVE</p>
+                    </div>
+                    <div>
+                        <label>ID Number</label>
+                        <p class="font-bold">59829381</p>
+                    </div>
+                    <div>
+                        <label>Surname</label>
+                        <p class="font-bold">GIDUCOS</p>
+                    </div>
+                    <div>
+                        <label>Birthdate</label>
+                        <p class="text-gray-500">mm/dd/yyyy</p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-2 gap-4 mb-4">
+                    <div>
+                        <label>Sex</label>
+                        <div class="flex items-center">
+                            <div class="checkbox"></div>
+                            <p>Male</p>
+                            <div class="checkbox checked"><i class="fas fa-check"></i></div>
+                            <p>Female</p>
+                        </div>
+                    </div>
+                    <div>
+                        <label>Contact Number</label>
+                        <input type="text">
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-2 gap-4 mb-4">
+                    <div>
+                        <label>Course & Year</label>
+                        <input type="text">
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-2 gap-4 mb-4">
+                    <div>
+                        <label>Medical History</label>
+                        <input type="text" placeholder="ex: asthma, highblood, seizure, etc.">
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-2 gap-4 mb-4">
+                    <div>
+                        <label>Food or Medicine Allergy</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label>Maintenance Medicine</label>
+                        <input type="text">
+                    </div>
+                </div>
+
+                <div class="mb-4">
+                    <label>COVID-19 Vaccine: Please Check</label>
+                    <div class="flex items-center">
+                        <div class="checkbox"></div>
+                        <p>Unvaccinated</p>
+                        <div class="checkbox"></div>
+                        <p>Fully Vaccinated</p>
+                        <div class="checkbox"></div>
+                        <p>Fully Vaccinated with Booster</p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-2 gap-4 mb-4">
+                    <div>
+                        <label>Name of Covid-19 Vaccine Received</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label>Date of Vaccine Received</label>
+                        <input type="text">
+                    </div>
+                </div>
+
+                <div class="flex justify-center">
+                    <button type="submit">NEXT</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
